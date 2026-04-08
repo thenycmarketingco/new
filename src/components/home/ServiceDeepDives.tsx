@@ -7,12 +7,12 @@ import { services } from "@/lib/siteData";
 import { type ReactNode } from "react";
 
 const serviceImages: Record<string, { src: string; alt: string }> = {
-  "search-engine-optimization-seo-nyc": { src: "/images/services/consortium-nyc-seo-services.png", alt: "SEO services for NYC businesses — keyword research, link building, and local search optimization" },
-  "web-design-nyc": { src: "/images/services/consortium-nyc-web-design-services.png", alt: "Web design services for NYC businesses — responsive websites on desktop, tablet, and mobile" },
-  "brand-strategy-identity-in-nyc": { src: "/images/services/consortium-nyc-branding-services.png", alt: "Brand identity and strategy services for NYC businesses — build your brand" },
-  "analytics-technology-in-nyc": { src: "/images/services/consortium-nyc-ai-automation-services.png", alt: "AI automation and technology services for NYC businesses — robotic process automation" },
-  "business-strategy-consulting-in-nyc": { src: "/images/services/consortium-nyc-marketing-strategy-services.png", alt: "Marketing strategy and consulting services for NYC businesses" },
-  "marketing-manager-consulting-in-nyc": { src: "/images/services/consortium-nyc-marketing-manager-services.png", alt: "Outsourced marketing manager services for NYC businesses" },
+  "search-engine-optimization-seo-nyc": { src: "/images/services/nyc-marketing-company-seo-services.png", alt: "SEO services for NYC businesses — keyword research, link building, and local search optimization" },
+  "web-design-nyc": { src: "/images/services/nyc-marketing-company-web-design-services.png", alt: "Web design services for NYC businesses — responsive websites on desktop, tablet, and mobile" },
+  "brand-strategy-identity-in-nyc": { src: "/images/services/nyc-marketing-company-branding-services.png", alt: "Brand identity and strategy services for NYC businesses — build your brand" },
+  "analytics-technology-in-nyc": { src: "/images/services/nyc-marketing-company-ai-automation-services.png", alt: "AI automation and technology services for NYC businesses — robotic process automation" },
+  "business-strategy-consulting-in-nyc": { src: "/images/services/nyc-marketing-company-marketing-strategy-services.png", alt: "Marketing strategy and consulting services for NYC businesses" },
+  "marketing-manager-consulting-in-nyc": { src: "/images/services/nyc-marketing-company-marketing-manager-services.png", alt: "Outsourced marketing manager services for NYC businesses" },
 };
 
 const L = ({ href, children }: { href: string; children: ReactNode }) => (
