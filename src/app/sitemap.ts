@@ -29,8 +29,10 @@ export default async function sitemap(props: { id: number }): Promise<MetadataRo
     const staticPages: MetadataRoute.Sitemap = [
       { url: BASE, lastModified: now, changeFrequency: "weekly", priority: 1.0 },
       { url: `${BASE}/contact`, lastModified: now, changeFrequency: "monthly", priority: 0.9 },
-      { url: `${BASE}/contact`, lastModified: now, changeFrequency: "monthly", priority: 0.9 },
       { url: `${BASE}/about`, lastModified: now, changeFrequency: "monthly", priority: 0.8 },
+      { url: `${BASE}/pricing`, lastModified: now, changeFrequency: "monthly", priority: 0.8 },
+      { url: `${BASE}/results`, lastModified: now, changeFrequency: "monthly", priority: 0.7 },
+      { url: `${BASE}/nyc-web-design-pricing`, lastModified: now, changeFrequency: "monthly", priority: 0.7 },
       { url: `${BASE}/industries-we-offer-marketing-services-for`, lastModified: now, changeFrequency: "weekly", priority: 0.8 },
       { url: `${BASE}/services-areas-we-offer-marketing-services-in`, lastModified: now, changeFrequency: "monthly", priority: 0.8 },
       { url: `${BASE}/artificial-intelligence-marketing-services-offered`, lastModified: now, changeFrequency: "monthly", priority: 0.8 },
@@ -81,6 +83,7 @@ export default async function sitemap(props: { id: number }): Promise<MetadataRo
     const blogPages: MetadataRoute.Sitemap = [
       { url: `${BASE}/the-marketing-blog/how-to-choose-digital-marketing-agency`, lastModified: now, changeFrequency: "monthly" as const, priority: 0.6 },
       { url: `${BASE}/the-marketing-blog/local-seo-vs-national-seo`, lastModified: now, changeFrequency: "monthly" as const, priority: 0.6 },
+      { url: `${BASE}/the-marketing-blog/10-seo-mistakes-nyc-businesses-2026`, lastModified: now, changeFrequency: "monthly" as const, priority: 0.6 },
     ];
 
     return [

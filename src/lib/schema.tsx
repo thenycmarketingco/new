@@ -8,11 +8,11 @@ export const organizationSchema = {
   url: "https://www.thenycmarketingcompany.com",
   logo: {
     "@type": "ImageObject",
-    url: "https://www.thenycmarketingcompany.com/logo.png",
-    width: 600,
-    height: 60,
+    url: "https://www.thenycmarketingcompany.com/icon.svg",
+    width: 32,
+    height: 32,
   },
-  image: "https://www.thenycmarketingcompany.com/og-image.jpg",
+  image: "https://www.thenycmarketingcompany.com/opengraph-image",
   description:
     "The NYC Marketing Company is a full-service NYC marketing company specializing in SEO, branding, web design, business development, and automation for businesses across NYC, Long Island, and Westchester.",
   address: {
@@ -41,7 +41,7 @@ export const organizationSchema = {
     "https://www.linkedin.com/company/thenycmarketingcompany",
     "https://twitter.com/thenycmarketingco",
   ],
-  foundingDate: "2020",
+  foundingDate: "2001",
   numberOfEmployees: {
     "@type": "QuantitativeValue",
     minValue: 2,
@@ -96,7 +96,7 @@ export function localBusinessSchema(area: string, areaType: string = "City") {
     "@type": "ProfessionalService",
     "@id": `https://www.thenycmarketingcompany.com/services-areas-we-offer-marketing-services-in/${area.toLowerCase().replace(/\s+/g, "-")}/#localbusiness`,
     name: `The NYC Marketing Company - ${area} Digital Marketing`,
-    image: "https://www.thenycmarketingcompany.com/og-image.jpg",
+    image: "https://www.thenycmarketingcompany.com/opengraph-image",
     url: `https://www.thenycmarketingcompany.com/services-areas-we-offer-marketing-services-in/${area.toLowerCase().replace(/\s+/g, "-")}`,
     telephone: "+1-212-202-9220",
     priceRange: "$$",
@@ -227,7 +227,7 @@ export function articleSchema(
     headline: title,
     description,
     url,
-    image: image || "https://www.thenycmarketingcompany.com/og-image.jpg",
+    image: image || "https://www.thenycmarketingcompany.com/opengraph-image",
     datePublished,
     dateModified,
     author: {

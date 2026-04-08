@@ -26,13 +26,11 @@ export const metadata: Metadata = {
     url: wdUrl,
     siteName: "The NYC Marketing Company",
     type: "website",
-    images: [{ url: "/og-image.jpg", width: 1200, height: 630, alt: "The NYC Marketing Company Web Design Pricing" }],
   },
   twitter: {
     card: "summary_large_image",
     title: wdTitle,
     description: wdDescription,
-    images: ["/og-image.jpg"],
   },
 };
 

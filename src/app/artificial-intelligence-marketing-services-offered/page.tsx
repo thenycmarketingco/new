@@ -12,7 +12,7 @@ const PHONE = "212.202.9220";
 export const metadata = {
   title: "AI Automation for Local Businesses | AI Text Bots, Lead Follow-Up & CRM",
   description: `AI automation built for local businesses. Custom AI text bots, automated lead follow-up, review requests, appointment booking, and CRM — running 24/7 on real infrastructure. Not a plugin. Built by The NYC Marketing Company. Call ${PHONE}.`,
-  alternates: { canonical: "https://www.thenycmarketingcompany.com/ai" },
+  alternates: { canonical: "https://www.thenycmarketingcompany.com/artificial-intelligence-marketing-services-offered" },
   keywords: [
     "ai automation local business",
     "ai text bot for business",
@@ -28,7 +28,7 @@ export const metadata = {
   openGraph: {
     title: "AI Automation for Local Businesses | The NYC Marketing Company",
     description: `Custom AI text bots, lead follow-up, review automation, and CRM. Built on real infrastructure. Call ${PHONE}.`,
-    url: "https://www.thenycmarketingcompany.com/ai",
+    url: "https://www.thenycmarketingcompany.com/artificial-intelligence-marketing-services-offered",
     siteName: "The NYC Marketing Company",
     type: "website",
   },
@@ -41,7 +41,7 @@ export const metadata = {
 
 const breadcrumbs = [
   { name: "Home", url: "https://www.thenycmarketingcompany.com" },
-  { name: "AI Automation", url: "https://www.thenycmarketingcompany.com/ai" },
+  { name: "AI Automation", url: "https://www.thenycmarketingcompany.com/artificial-intelligence-marketing-services-offered" },
 ];
 
 const faqs = [
@@ -58,7 +58,7 @@ const faqs = [
 ];
 
 export default function AIPage() {
-  const pageUrl = "https://www.thenycmarketingcompany.com/ai";
+  const pageUrl = "https://www.thenycmarketingcompany.com/artificial-intelligence-marketing-services-offered";
   return (
     <>
       <JsonLd data={serviceSchema("AI Automation", "ai-automation-services-in-nyc", "Custom AI text bots, automated lead follow-up, review requests, appointment booking, and CRM for local businesses. Built on Telnyx, Supabase, and Claude AI.")} />

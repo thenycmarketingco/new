@@ -69,7 +69,7 @@ export const metadata: Metadata = {
       "Full-service NYC marketing company for local businesses in NYC, Long Island, and Westchester. SEO, web design, branding, and automation. Call/text (212) 202-9220.",
     images: [
       {
-        url: "/og-image.jpg",
+        url: "https://www.thenycmarketingcompany.com/opengraph-image",
         width: 1200,
         height: 630,
         alt: "The NYC Marketing Company - NYC Marketing Company",
@@ -81,7 +81,6 @@ export const metadata: Metadata = {
     title: "NYC Marketing Company | The NYC Marketing Company",
     description:
       "Full-service NYC marketing company for local businesses. SEO, web design, branding, and automation. Call/text (212) 202-9220.",
-    images: ["/og-image.jpg"],
     creator: "@thenycmarketingco",
   },
   robots: {

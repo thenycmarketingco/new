@@ -6,6 +6,7 @@ export const metadata: Metadata = {
   title: "100 Marketing FAQs for NYC Businesses | SEO, Web Design, Pricing | The NYC Marketing Company",
   description:
     "100 answers to the most common questions about hiring a marketing company in NYC. SEO pricing, web design costs, local SEO timelines, Google Business Profile, AI automation, and more. Call/text (212) 202-9220.",
+  alternates: { canonical: "https://www.thenycmarketingcompany.com/nyc-marketing-company-faqs" },
   keywords: [
     "NYC marketing company FAQ",
     "how much does SEO cost in NYC",

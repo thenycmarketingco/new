@@ -1,29 +1,29 @@
 import Link from "next/link";
 
 const services = [
-  { label: "SEO", slug: "seo" },
-  { label: "Web Design", slug: "web-design" },
-  { label: "Branding", slug: "branding" },
-  { label: "Digital Strategy", slug: "digital-strategy" },
-  { label: "Business Development", slug: "business-development" },
-  { label: "Automation", slug: "automation" },
+  { label: "SEO", slug: "search-engine-optimization-seo-nyc" },
+  { label: "Web Design", slug: "web-design-nyc" },
+  { label: "Branding", slug: "brand-strategy-identity-in-nyc" },
+  { label: "Digital Strategy", slug: "business-strategy-consulting-in-nyc" },
+  { label: "AI Automation", slug: "ai-automation-services-in-nyc" },
+  { label: "Email Marketing", slug: "email-marketing-automation-in-nyc" },
 ];
 
 const areas = [
-  { label: "Manhattan", slug: "manhattan" },
-  { label: "Brooklyn", slug: "brooklyn" },
-  { label: "Queens", slug: "queens" },
-  { label: "Bronx", slug: "bronx" },
-  { label: "Staten Island", slug: "staten-island" },
-  { label: "Long Island", slug: "long-island" },
-  { label: "Westchester", slug: "westchester" },
+  { label: "Manhattan", slug: "manhattan-marketing-company" },
+  { label: "Brooklyn", slug: "brooklyn-marketing-company" },
+  { label: "Queens", slug: "queens-marketing-company" },
+  { label: "Bronx", slug: "bronx-marketing-company" },
+  { label: "Staten Island", slug: "staten-island-marketing-company" },
+  { label: "Long Island", slug: "long-island-marketing-company" },
+  { label: "Westchester", slug: "westchester-marketing-company" },
 ];
 
 const socials = [
-  { label: "LinkedIn", href: "https://linkedin.com" },
-  { label: "Instagram", href: "https://instagram.com" },
-  { label: "Facebook", href: "https://facebook.com" },
-  { label: "Twitter", href: "https://twitter.com" },
+  { label: "LinkedIn", href: "https://www.linkedin.com/company/thenycmarketingcompany" },
+  { label: "Instagram", href: "https://www.instagram.com/thenycmarketingcompany" },
+  { label: "Facebook", href: "https://www.facebook.com/thenycmarketingcompany" },
+  { label: "Twitter", href: "https://twitter.com/thenycmarketingco" },
 ];
 
 export default function Footer() {
