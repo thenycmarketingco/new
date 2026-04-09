@@ -100,7 +100,7 @@ export default function Hero() {
       <div className="absolute inset-0 bg-slate-900/80 z-[1]" />
 
       {/* Content */}
-      <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center pt-16 sm:pt-36 pb-16 sm:pb-20">
+      <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center pt-24 sm:pt-36 pb-16 sm:pb-20">
         {/* Pre-headline — solid teal bar */}
         <div className="relative h-10 flex items-center justify-center mb-2 sm:mb-4">
           <AnimatePresence mode="wait">
@@ -157,7 +157,7 @@ export default function Hero() {
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.45 }}
-          className="flex flex-col sm:flex-row items-center justify-center gap-3 sm:gap-4 mb-4 sm:mb-6"
+          className="flex flex-col sm:flex-row items-center justify-center gap-4 sm:gap-4 mb-6 sm:mb-6"
         >
           <Link
             href="/contact"
