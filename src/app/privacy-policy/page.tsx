@@ -154,9 +154,9 @@ export default function PrivacyPolicyPage() {
             <Section title="12. Contact Us">
               <p>If you have questions about this Privacy Policy or wish to exercise your rights, contact us:</p>
               <ul>
-                <li><strong>Email:</strong> <a href="mailto:hello@thenycmarketingcompany.com">hello@thenycmarketingcompany.com</a></li>
+                <li><strong>Email:</strong> <a href="mailto:hi@thenycmarketingcompany.com">hi@thenycmarketingcompany.com</a></li>
                 <li><strong>Phone:</strong> <a href="tel:+12122029220">(212) 202-9220</a></li>
-                <li><strong>Address:</strong> The NYC Marketing Company, New York, NY 10001</li>
+                <li><strong>Address:</strong> The NYC Marketing Company, 150 W 47th St, New York, NY 10036</li>
               </ul>
             </Section>
           </div>

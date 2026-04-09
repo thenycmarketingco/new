@@ -17,10 +17,10 @@ export const organizationSchema = {
     "The NYC Marketing Company is a full-service NYC marketing company specializing in SEO, branding, web design, business development, and automation for businesses across NYC, Long Island, and Westchester.",
   address: {
     "@type": "PostalAddress",
-    streetAddress: "New York",
+    streetAddress: "150 W 47th St",
     addressLocality: "New York",
     addressRegion: "NY",
-    postalCode: "10001",
+    postalCode: "10036",
     addressCountry: "US",
   },
   geo: {

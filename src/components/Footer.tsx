@@ -110,10 +110,10 @@ export default function Footer() {
             <ul className="flex flex-col gap-3 text-sm text-slate-300">
               <li>
                 <a
-                  href="mailto:hello@thenycmarketingcompany.com"
+                  href="mailto:hi@thenycmarketingcompany.com"
                   className="transition-colors hover:text-teal-400"
                 >
-                  hello@thenycmarketingcompany.com
+                  hi@thenycmarketingcompany.com
                 </a>
               </li>
               <li>
@@ -125,7 +125,7 @@ export default function Footer() {
                 </a>
               </li>
               <li className="leading-relaxed">
-                New York, NY
+                150 W 47th St, New York, NY 10036
               </li>
             </ul>
             <Link

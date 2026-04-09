@@ -91,9 +91,9 @@ export default function AccessibilityPage() {
                 We welcome your feedback on the accessibility of our website. If you encounter any barriers or have suggestions for improvement, please contact us:
               </p>
               <ul>
-                <li><strong>Email:</strong> <a href="mailto:hello@thenycmarketingcompany.com">hello@thenycmarketingcompany.com</a></li>
+                <li><strong>Email:</strong> <a href="mailto:hi@thenycmarketingcompany.com">hi@thenycmarketingcompany.com</a></li>
                 <li><strong>Phone:</strong> <a href="tel:+12122029220">(212) 202-9220</a></li>
-                <li><strong>Address:</strong> The NYC Marketing Company, New York, NY 10001</li>
+                <li><strong>Address:</strong> The NYC Marketing Company, 150 W 47th St, New York, NY 10036</li>
               </ul>
               <p>
                 We aim to respond to accessibility feedback within 2 business days and to resolve issues as quickly as possible.
