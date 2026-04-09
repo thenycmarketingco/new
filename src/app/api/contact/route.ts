@@ -7,8 +7,8 @@ function getResend() {
   return _resend;
 }
 
-const FROM = "The NYC Marketing Company <notifications@thenycmarketingcompany.com>";
-const TO = "hello@thenycmarketingcompany.com";
+const FROM = "The NYC Marketing Company <hi@thenycmarketingcompany.com>";
+const TO = "admin@thenycmarketingcompany.com";
 
 /**
  * Unified contact API — every form on the site posts here.
