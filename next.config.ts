@@ -110,7 +110,6 @@ const nextConfig: NextConfig = {
       { source: "/service-areas/:path*", destination: "/services-areas-we-offer-marketing-services-in", permanent: true },
 
       // ── Missing redirects ──
-      { source: "/services", destination: "/nyc-marketing-company-services-list", permanent: true },
       { source: "/marketing-101", destination: "/nyc-marketing-101-guide", permanent: true },
       { source: "/nyc-digital-marketing-agency-services-offered-by-consortium-nyc", destination: "/nyc-marketing-company-services-list", permanent: true },
 
