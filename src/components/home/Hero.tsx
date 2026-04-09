@@ -76,13 +76,13 @@ export default function Hero() {
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
       {/* Background image slider */}
-      <AnimatePresence mode="popLayout">
+      <AnimatePresence mode="sync">
         <motion.div
           key={current}
-          initial={{ opacity: 0, scale: 1.05 }}
-          animate={{ opacity: 1, scale: 1 }}
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
           exit={{ opacity: 0 }}
-          transition={{ duration: 1.2, ease: "easeOut" as const }}
+          transition={{ duration: 0.8, ease: "easeOut" as const }}
           className="absolute inset-0"
         >
           <Image
@@ -103,13 +103,13 @@ export default function Hero() {
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center pt-4 sm:pt-36 pb-16 sm:pb-20">
         {/* Pre-headline — solid teal bar */}
         <div className="relative h-10 flex items-center justify-center mb-2 sm:mb-4">
-          <AnimatePresence>
+          <AnimatePresence mode="wait">
             <motion.div
               key={`pre-${current}`}
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               exit={{ opacity: 0 }}
-              transition={{ duration: 0.8 }}
+              transition={{ duration: 0.4 }}
               className="absolute"
             >
               <span className="inline-block bg-teal-600 text-white text-xs sm:text-sm font-bold tracking-[0.15em] uppercase px-5 py-2.5 font-cta">
@@ -119,15 +119,15 @@ export default function Hero() {
           </AnimatePresence>
         </div>
 
-        {/* Main headline — crossfade */}
+        {/* Main headline */}
         <div className="relative h-[160px] sm:h-[200px] md:h-[300px] lg:h-[350px] flex items-center justify-center mb-0 sm:mb-4">
-          <AnimatePresence>
+          <AnimatePresence mode="wait">
             <motion.h1
               key={`h1-${current}`}
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               exit={{ opacity: 0 }}
-              transition={{ duration: 0.8 }}
+              transition={{ duration: 0.4 }}
               className="absolute w-full font-extrabold text-white leading-[1.1] font-heading"
             >
               <span className="block text-4xl sm:text-5xl md:text-6xl lg:text-7xl">{slide.line1}</span>
@@ -136,15 +136,15 @@ export default function Hero() {
           </AnimatePresence>
         </div>
 
-        {/* Sub copy — crossfade */}
+        {/* Sub copy */}
         <div className="relative h-[50px] sm:h-[45px] flex items-start justify-center mb-4 sm:mb-10">
-          <AnimatePresence>
+          <AnimatePresence mode="wait">
             <motion.p
               key={`sub-${current}`}
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               exit={{ opacity: 0 }}
-              transition={{ duration: 0.8 }}
+              transition={{ duration: 0.4 }}
               className="absolute w-full text-base sm:text-lg text-slate-200 max-w-3xl mx-auto leading-relaxed"
             >
               {slide.sub}
