@@ -13,7 +13,6 @@ export default function robots(): MetadataRoute.Robots {
       "https://www.thenycmarketingcompany.com/sitemap/0.xml",
       "https://www.thenycmarketingcompany.com/sitemap/1.xml",
       "https://www.thenycmarketingcompany.com/sitemap/2.xml",
-      "https://www.thenycmarketingcompany.com/sitemap/3.xml",
     ],
   };
 }
