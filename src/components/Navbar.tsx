@@ -235,15 +235,31 @@ export default function Navbar() {
               initial="hidden"
               animate="visible"
               exit="exit"
-              className="fixed right-0 top-0 z-50 flex h-full w-[80vw] max-w-sm flex-col bg-white px-6 pt-24 pb-8 shadow-2xl lg:hidden"
+              className="fixed inset-0 z-50 flex flex-col items-center justify-center bg-slate-900 lg:hidden"
             >
-              <div className="flex flex-col gap-1 overflow-y-auto">
+              {/* Close button */}
+              <button
+                onClick={() => setMobileOpen(false)}
+                className="absolute top-5 right-5 h-10 w-10 flex items-center justify-center"
+                aria-label="Close menu"
+              >
+                <svg className="h-6 w-6 text-white/60" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M6 18L18 6M6 6l12 12" />
+                </svg>
+              </button>
+
+              {/* Brand name */}
+              <p className="text-2xl font-extrabold tracking-widest uppercase text-white mb-10 font-heading text-center">
+                THE NYC<br />MARKETING CO
+              </p>
+
+              <div className="flex flex-col items-center gap-2 overflow-y-auto">
                 {navLinks.map((link) => (
                   <Link
                     key={link.href}
                     href={link.href}
                     onClick={() => setMobileOpen(false)}
-                    className="rounded-lg px-4 py-3 text-base font-medium text-slate-800 transition-colors hover:bg-slate-50 font-cta"
+                    className="px-4 py-3 text-xl font-medium text-white transition-colors hover:text-teal-400 font-cta"
                   >
                     {link.label}
                   </Link>
@@ -252,7 +268,7 @@ export default function Navbar() {
                 {/* More Accordion */}
                 <button
                   onClick={() => setMobileMoreOpen(!mobileMoreOpen)}
-                  className="flex items-center justify-between rounded-lg px-4 py-3 text-left text-base font-medium text-slate-800 transition-colors hover:bg-slate-50 font-cta"
+                  className="flex items-center gap-1 px-4 py-3 text-xl font-medium text-white transition-colors hover:text-teal-400 font-cta"
                 >
                   More
                   {chevron(mobileMoreOpen)}
@@ -266,13 +282,13 @@ export default function Navbar() {
                       transition={{ duration: 0.25 }}
                       className="overflow-hidden"
                     >
-                      <div className="ml-4 flex flex-col gap-0.5 border-l-2 border-teal-200 pl-3">
+                      <div className="flex flex-col items-center gap-1">
                         {moreLinks.map((link) => (
                           <Link
                             key={link.href}
                             href={link.href}
                             onClick={() => setMobileOpen(false)}
-                            className="rounded-lg px-3 py-2.5 text-sm text-slate-600 transition-colors hover:text-teal-600"
+                            className="px-3 py-2 text-base text-slate-400 transition-colors hover:text-teal-400"
                           >
                             {link.label}
                           </Link>
@@ -282,12 +298,11 @@ export default function Navbar() {
                   )}
                 </AnimatePresence>
 
-                {/* AI — highlighted in mobile */}
-                <div className="my-2 h-px bg-slate-200" />
+                {/* AI — highlighted */}
                 <Link
                   href="/artificial-intelligence-marketing-services-offered"
                   onClick={() => setMobileOpen(false)}
-                  className="rounded-lg px-4 py-3 text-base font-bold text-teal-600 transition-colors hover:bg-teal-50 font-cta"
+                  className="px-4 py-3 text-xl font-bold text-teal-400 transition-colors hover:text-teal-300 font-cta"
                 >
                   AI
                 </Link>
@@ -296,12 +311,34 @@ export default function Navbar() {
                 <Link
                   href="/contact"
                   onClick={() => setMobileOpen(false)}
-                  className="mt-6"
+                  className="mt-8"
                 >
-                  <span className="block rounded-lg bg-teal-600 px-6 py-3.5 text-center text-base font-semibold text-white transition-colors hover:bg-teal-700 font-cta">
+                  <span className="block rounded-lg bg-teal-600 px-10 py-4 text-center text-lg font-semibold text-white transition-colors hover:bg-teal-700 font-cta">
                     Free Consultation
                   </span>
                 </Link>
+
+                {/* Text & Call */}
+                <div className="flex gap-4 mt-4">
+                  <a
+                    href="sms:+12122029220"
+                    className="flex items-center gap-2 px-6 py-3 rounded-lg border border-white/20 text-white/80 hover:text-white hover:border-white/40 transition-colors font-cta text-sm font-medium"
+                  >
+                    <svg className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                      <path strokeLinecap="round" strokeLinejoin="round" d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z" />
+                    </svg>
+                    Text Us
+                  </a>
+                  <a
+                    href="tel:+12122029220"
+                    className="flex items-center gap-2 px-6 py-3 rounded-lg border border-white/20 text-white/80 hover:text-white hover:border-white/40 transition-colors font-cta text-sm font-medium"
+                  >
+                    <svg className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                      <path strokeLinecap="round" strokeLinejoin="round" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+                    </svg>
+                    Call Us
+                  </a>
+                </div>
               </div>
             </motion.div>
           </>

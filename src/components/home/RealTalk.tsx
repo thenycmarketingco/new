@@ -40,16 +40,16 @@ export default function RealTalk() {
             </p>
 
             {/* Stats */}
-            <div className="grid grid-cols-2 gap-4 my-8">
-              <div className="rounded-xl border border-teal-500/30 bg-teal-500/10 p-5 text-center">
-                <p className="text-3xl sm:text-4xl font-extrabold text-teal-400 font-heading">30%</p>
-                <p className="text-sm text-slate-400 mt-1 font-cta">Our Conversion Rate</p>
-                <p className="text-xs text-slate-500 mt-0.5">Industry avg: 2-5%</p>
+            <div className="grid grid-cols-2 gap-3 sm:gap-4 my-8">
+              <div className="rounded-xl border border-teal-500/30 bg-teal-500/10 p-4 sm:p-5 text-center">
+                <p className="text-2xl sm:text-4xl font-extrabold text-teal-400 font-heading">30%</p>
+                <p className="text-xs sm:text-sm text-slate-400 mt-1 font-cta">Our Conversion Rate</p>
+                <p className="text-[10px] sm:text-xs text-slate-500 mt-0.5">Industry avg: 2-5%</p>
               </div>
-              <div className="rounded-xl border border-teal-500/30 bg-teal-500/10 p-5 text-center">
-                <p className="text-3xl sm:text-4xl font-extrabold text-teal-400 font-heading">70%</p>
-                <p className="text-sm text-slate-400 mt-1 font-cta">Our Close Rate</p>
-                <p className="text-xs text-slate-500 mt-0.5">Industry avg: 30%</p>
+              <div className="rounded-xl border border-teal-500/30 bg-teal-500/10 p-4 sm:p-5 text-center">
+                <p className="text-2xl sm:text-4xl font-extrabold text-teal-400 font-heading">70%</p>
+                <p className="text-xs sm:text-sm text-slate-400 mt-1 font-cta">Our Close Rate</p>
+                <p className="text-[10px] sm:text-xs text-slate-500 mt-0.5">Industry avg: 30%</p>
               </div>
             </div>
 
