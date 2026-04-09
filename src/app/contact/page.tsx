@@ -5,7 +5,7 @@ import ContactPageClient from "./ContactPageClient";
 export const metadata: Metadata = {
   title: "Contact Us — Schedule a Free Strategy Session",
   description:
-    "Get in touch with The NYC Marketing Company. Schedule a free strategy consultation for SEO, web design, branding, and digital marketing in NYC, Long Island, and Westchester. Call (212) 202-9220.",
+    "Schedule a free strategy consultation for SEO, web design, branding, and digital marketing in NYC, Long Island, and Westchester. The best organic marketing company in NYC. Pricing starting at $100/hr. Call/text 212.202.9220.",
   alternates: { canonical: "https://www.thenycmarketingcompany.com/contact" },
   keywords: [
     "contact the nyc marketing company",
@@ -18,16 +18,16 @@ export const metadata: Metadata = {
     "hire marketing agency nyc",
   ],
   openGraph: {
-    title: "Contact The NYC Marketing Company — Free Strategy Session",
+    title: "Contact Us — Free Strategy Session",
     description:
-      "Schedule a free strategy consultation for SEO, web design, branding, and digital marketing in NYC. Call (212) 202-9220.",
+      "Schedule a free strategy consultation for SEO, web design, branding, and digital marketing in NYC. Pricing starting at $100/hr. Call/text 212.202.9220.",
     url: "https://www.thenycmarketingcompany.com/contact",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Contact The NYC Marketing Company — Free Strategy Session",
+    title: "Contact Us — Free Strategy Session",
     description:
-      "Schedule a free strategy consultation. SEO, web design, branding, digital marketing. Call (212) 202-9220.",
+      "Schedule a free strategy consultation. SEO, web design, branding, digital marketing. Pricing starting at $100/hr. Call/text 212.202.9220.",
   },
 };
 

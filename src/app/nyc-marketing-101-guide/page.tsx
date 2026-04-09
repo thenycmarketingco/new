@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 import { JsonLd, webPageSchema, breadcrumbSchema } from "@/lib/schema";
 import Marketing101Client from "./Marketing101Client";
 
-const title = "Marketing 101: 101 Lessons From Startup to 25-Year Veteran | NYC Marketing Guide | The NYC Marketing Company";
-const description = "101 marketing lessons every business owner needs — from day-one startup basics to advanced strategies used by 25-year veterans. SEO, web design, branding, local marketing, AI automation, and more for NYC businesses. Call/text (212) 202-9220.";
+const title = "Marketing 101: 101 Lessons From Startup to 25-Year Veteran | NYC Marketing Guide";
+const description = "101 marketing lessons every business owner needs — from day-one startup basics to advanced strategies used by 25-year veterans. The best organic marketing company in NYC. SEO, web design, branding, local marketing, AI automation, and more. Pricing starting at $100/hr. Call/text 212.202.9220.";
 const url = "https://www.thenycmarketingcompany.com/nyc-marketing-101-guide";
 
 export const metadata: Metadata = {

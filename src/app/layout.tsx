@@ -34,11 +34,11 @@ const jetbrains = JetBrains_Mono({
 export const metadata: Metadata = {
   metadataBase: new URL("https://www.thenycmarketingcompany.com"),
   title: {
-    default: "NYC Marketing Company | The NYC Marketing Company",
-    template: "%s | The NYC Marketing Company",
+    default: "NYC Marketing Company | SEO, Web Design & Branding",
+    template: "%s",
   },
   description:
-    "The NYC Marketing Company is a full-service NYC marketing company specializing in SEO, branding, web design, business development, and automation for local businesses in NYC, Long Island, and Westchester. Call/text (212) 202-9220.",
+    "The best organic marketing company in NYC. SEO, branding, web design, business development, and automation for local businesses in NYC, Long Island, and Westchester. Pricing starting at $100/hr. Call/text 212.202.9220.",
   keywords: [
     "nyc marketing company",
     "seo agency new york",
@@ -64,9 +64,9 @@ export const metadata: Metadata = {
     locale: "en_US",
     url: "https://www.thenycmarketingcompany.com",
     siteName: "The NYC Marketing Company",
-    title: "NYC Marketing Company | The NYC Marketing Company",
+    title: "NYC Marketing Company | SEO, Web Design & Branding",
     description:
-      "Full-service NYC marketing company for local businesses in NYC, Long Island, and Westchester. SEO, web design, branding, and automation. Call/text (212) 202-9220.",
+      "The best organic marketing company in NYC. SEO, web design, branding, and automation for local businesses. Pricing starting at $100/hr. Call/text 212.202.9220.",
     images: [
       {
         url: "https://www.thenycmarketingcompany.com/opengraph-image",

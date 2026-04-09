@@ -5,7 +5,7 @@ import { JsonLd, webPageSchema, breadcrumbSchema } from "@/lib/schema";
 export const metadata: Metadata = {
   title: "Accessibility Statement",
   description:
-    "Accessibility Statement for The NYC Marketing Company. Our commitment to making our website accessible to all users. Call (212) 202-9220 with questions.",
+    "Accessibility Statement — our commitment to making our website accessible to all users. The best organic marketing company in NYC. Call/text 212.202.9220 with questions.",
   alternates: { canonical: "https://www.thenycmarketingcompany.com/accessibility" },
   robots: { index: true, follow: true },
 };

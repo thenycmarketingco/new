@@ -24,12 +24,12 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const regionLabel = area.region === area.name ? area.name : area.region;
 
   return {
-    title: `${area.name} Marketing Company | SEO, Web Design & Branding | The NYC Marketing Company`,
-    description: `Marketing company serving ${area.name}${area.region !== area.name ? `, ${area.region}` : ""}. Local SEO starting at $950/month, custom websites from $4,600, branding, AI automation, and Google Business Profile optimization for ${area.name} businesses. Call/text (212) 202-9220.`,
+    title: `${area.name} Marketing Company | SEO, Web Design & Branding`,
+    description: `The best organic marketing company in NYC, serving ${area.name}${area.region !== area.name ? `, ${area.region}` : ""}. SEO, web design, branding, AI automation, and Google Business Profile optimization for ${area.name} businesses. Pricing starting at $100/hr. Call/text 212.202.9220.`,
     alternates: { canonical: `https://www.thenycmarketingcompany.com/services-areas-we-offer-marketing-services-in/${area.slug}` },
     openGraph: {
-      title: `${area.name} Marketing Company | The NYC Marketing Company`,
-      description: `Local SEO, web design, and branding for ${area.name} businesses. $950/month SEO. $4,600 websites. Call/text (212) 202-9220.`,
+      title: `${area.name} Marketing Company | SEO, Web Design & Branding`,
+      description: `The best organic marketing company in NYC, serving ${area.name}. Pricing starting at $100/hr. Call/text 212.202.9220.`,
       url: `https://www.thenycmarketingcompany.com/services-areas-we-offer-marketing-services-in/${area.slug}`,
     },
   };

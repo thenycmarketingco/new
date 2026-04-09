@@ -3,21 +3,21 @@ import { JsonLd, webPageSchema, breadcrumbSchema, faqSchema } from "@/lib/schema
 import FAQPageClient from "./FAQPageClient";
 
 export const metadata: Metadata = {
-  title: "100 Marketing FAQs for NYC Businesses | SEO, Web Design, Pricing | The NYC Marketing Company",
+  title: "100 Marketing FAQs for NYC Businesses | SEO, Web Design, Pricing",
   description:
-    "100 answers to the most common questions about hiring a marketing company in NYC. SEO pricing, web design costs, local SEO timelines, Google Business Profile, AI automation, and more. Call/text (212) 202-9220.",
+    "100 answers to the most common questions about hiring a marketing company in NYC. The best organic marketing company in NYC. SEO pricing, web design costs, local SEO timelines, and more. Pricing starting at $100/hr. Call/text 212.202.9220.",
   alternates: { canonical: "https://www.thenycmarketingcompany.com/nyc-marketing-company-faqs" },
   openGraph: {
-    title: "100 Marketing FAQs for NYC Businesses | The NYC Marketing Company",
-    description: "100 answers to the most common questions about hiring a marketing company in NYC.",
+    title: "100 Marketing FAQs for NYC Businesses | SEO, Web Design, Pricing",
+    description: "100 answers to the most common questions about hiring a marketing company in NYC. Pricing starting at $100/hr. Call/text 212.202.9220.",
     url: "https://www.thenycmarketingcompany.com/nyc-marketing-company-faqs",
     siteName: "The NYC Marketing Company",
     type: "website",
   },
   twitter: {
     card: "summary_large_image" as const,
-    title: "100 Marketing FAQs for NYC Businesses | The NYC Marketing Company",
-    description: "100 answers to the most common questions about hiring a marketing company in NYC.",
+    title: "100 Marketing FAQs for NYC Businesses | SEO, Web Design, Pricing",
+    description: "100 answers to the most common questions about hiring a marketing company in NYC. Call/text 212.202.9220.",
   },
   keywords: [
     "NYC marketing company FAQ",

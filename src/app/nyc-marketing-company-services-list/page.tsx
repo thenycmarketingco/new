@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import { JsonLd, webPageSchema, breadcrumbSchema } from "@/lib/schema";
 import ServicesListClient from "./ServicesListClient";
 
-const title = "NYC Marketing Company Services | SEO, Web Design, AI, Branding & More | The NYC Marketing Company";
+const title = "NYC Marketing Services | SEO, Web Design, AI, Branding & More";
 const description =
-  "Every marketing service your NYC business needs under one roof. SEO, custom web design, branding, AI automation, programmatic SEO, CRM development, and more. No contracts. Transparent pricing. Call/text (212) 202-9220.";
+  "The best organic marketing company in NYC. Every marketing service your business needs under one roof — SEO, web design, branding, AI automation, programmatic SEO, CRM development, and more. Pricing starting at $100/hr. No contracts. Call/text 212.202.9220.";
 const url = "https://www.thenycmarketingcompany.com/nyc-marketing-company-services-list";
 
 export const metadata: Metadata = {

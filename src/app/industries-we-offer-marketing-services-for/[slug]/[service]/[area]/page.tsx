@@ -39,7 +39,7 @@ export async function generateMetadata({
 
   return {
     title: `${h1} | ${regionLabel} Marketing Company`,
-    description: `${svc.name} for ${label.toLowerCase()} businesses in ${area.name}${area.region !== area.name ? `, ${area.region}` : ""}. Local SEO from $950/mo, custom websites from $4,600. Data-driven ${svc.name.toLowerCase()} strategies for ${label.toLowerCase()} companies. No contracts. Call ${PHONE}.`,
+    description: `${svc.name} for ${label.toLowerCase()} businesses in ${area.name}${area.region !== area.name ? `, ${area.region}` : ""}. The best organic marketing company in NYC. Pricing starting at $100/hr. Data-driven ${svc.name.toLowerCase()} strategies for ${label.toLowerCase()} companies. No contracts. Call/text ${PHONE}.`,
     alternates: { canonical },
     keywords: [
       `${svc.name.toLowerCase()} ${label.toLowerCase()} ${area.name}`,
@@ -53,7 +53,7 @@ export async function generateMetadata({
     ],
     openGraph: {
       title: h1,
-      description: `${svc.name} for ${label.toLowerCase()} businesses in ${area.name}. $950/mo SEO. $4,600 websites. No contracts. ${PHONE}.`,
+      description: `${svc.name} for ${label.toLowerCase()} businesses in ${area.name}. The best organic marketing company in NYC. Pricing starting at $100/hr. Call/text ${PHONE}.`,
       url: canonical,
       siteName: "The NYC Marketing Company",
       type: "website",
@@ -61,7 +61,7 @@ export async function generateMetadata({
     twitter: {
       card: "summary_large_image" as const,
       title: h1,
-      description: `${svc.name} for ${label.toLowerCase()} businesses in ${area.name}. Call ${PHONE}.`,
+      description: `${svc.name} for ${label.toLowerCase()} businesses in ${area.name}. Call/text ${PHONE}.`,
     },
   };
 }

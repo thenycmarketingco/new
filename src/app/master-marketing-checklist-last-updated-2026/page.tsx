@@ -4,7 +4,7 @@ import MarketingChecklist from "./ChecklistClient";
 
 const title = "Master Marketing Checklist 2026 | SEO, Web Design & More";
 const description =
-  "The complete marketing checklist for NYC businesses — SEO foundations, Google Business Profile, web design, content strategy, analytics, and more. Updated for 2026. Call/text (212) 202-9220.";
+  "The complete marketing checklist for NYC businesses — SEO foundations, Google Business Profile, web design, content strategy, analytics, and more. The best organic marketing company in NYC. Pricing starting at $100/hr. Updated for 2026. Call/text 212.202.9220.";
 const url = "https://www.thenycmarketingcompany.com/master-marketing-checklist-last-updated-2026";
 
 export const metadata: Metadata = {

@@ -28,7 +28,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const canonical = `https://www.thenycmarketingcompany.com/industries-we-offer-marketing-services-for/${ind.slug}`;
   return {
     title: `${ind.name} | SEO, Web Design & Digital Marketing`,
-    description: `${ind.desc} Custom SEO, web design, branding, and AI automation for ${ind.badge.toLowerCase()} businesses in NYC, Long Island, and Westchester. SEO from $950/mo. Websites from $4,600. No contracts. Call ${PHONE}.`,
+    description: `${ind.desc} The best organic marketing company in NYC. Custom SEO, web design, branding, and AI automation for ${ind.badge.toLowerCase()} businesses. Pricing starting at $100/hr. No contracts. Call/text ${PHONE}.`,
     alternates: { canonical },
     keywords: [
       `${ind.badge.toLowerCase()} marketing`,
@@ -41,16 +41,16 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       `${ind.badge.toLowerCase()} digital marketing`,
     ],
     openGraph: {
-      title: `${ind.name} | The NYC Marketing Company`,
-      description: `${ind.desc} SEO from $950/mo. Websites from $4,600. Call ${PHONE}.`,
+      title: `${ind.name} | SEO, Web Design & Digital Marketing`,
+      description: `${ind.desc} The best organic marketing company in NYC. Pricing starting at $100/hr. Call/text ${PHONE}.`,
       url: canonical,
       siteName: "The NYC Marketing Company",
       type: "website",
     },
     twitter: {
       card: "summary_large_image" as const,
-      title: `${ind.name} | The NYC Marketing Company`,
-      description: `${ind.desc} Call ${PHONE}.`,
+      title: `${ind.name} | SEO, Web Design & Digital Marketing`,
+      description: `${ind.desc} Call/text ${PHONE}.`,
     },
   };
 }

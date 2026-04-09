@@ -33,8 +33,8 @@ export async function generateMetadata({
   const { category, subService } = result;
   const name = subService ? subService.name : category.name;
   const desc = subService ? subService.shortDesc : category.description;
-  const fallbackDesc = `${desc} The NYC Marketing Company. Call/text (212) 202-9220.`;
-  const fallbackTitle = `NYC ${name} | The NYC Marketing Company`;
+  const fallbackDesc = `${desc} The best organic marketing company in NYC. Pricing starting at $100/hr. Call/text 212.202.9220.`;
+  const fallbackTitle = `NYC ${name} | SEO, Web Design & Marketing`;
 
   const title = subService ? fallbackTitle : (category.metaTitle ?? fallbackTitle);
   const description = subService ? fallbackDesc : (category.metaDescription ?? fallbackDesc);

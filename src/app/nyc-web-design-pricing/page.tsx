@@ -3,8 +3,8 @@ import Link from "next/link";
 import { JsonLd, webPageSchema, breadcrumbSchema, faqSchema } from "@/lib/schema";
 import TipBlurb from "@/components/TipBlurb";
 
-const wdTitle = "NYC Web Design Pricing | Custom Websites from $4,600 | The NYC Marketing Company";
-const wdDescription = "Transparent web design pricing for NYC businesses. Custom websites from $4,600, monthly SEO from $950/mo. No hidden fees, no contracts. Mobile-first, SEO-optimized sites that convert. Call/text (212) 202-9220.";
+const wdTitle = "NYC Web Design Pricing | Custom Websites from $4,600";
+const wdDescription = "The best organic marketing company in NYC. Transparent web design pricing — custom websites from $4,600, monthly SEO from $950/mo. No hidden fees, no contracts. Mobile-first, SEO-optimized sites that convert. Pricing starting at $100/hr. Call/text 212.202.9220.";
 const wdUrl = "https://www.thenycmarketingcompany.com/nyc-web-design-pricing";
 
 export const metadata: Metadata = {

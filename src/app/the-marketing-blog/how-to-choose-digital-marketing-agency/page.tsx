@@ -6,9 +6,9 @@ import BlogNav from "@/components/blog/BlogNav";
 import ListenButton from "@/components/blog/ListenButton";
 import { JsonLd, articleSchema, breadcrumbSchema } from "@/lib/schema";
 
-const title = "How to Choose a Marketing Company (Without Getting Burned) | The NYC Marketing Company";
+const title = "How to Choose a Marketing Company (Without Getting Burned)";
 const description =
-  "The exact questions to ask, red flags to watch for, and benchmarks to demand before hiring a marketing company. 25 years of industry insight — no sugarcoating. Call/text (212) 202-9220.";
+  "The exact questions to ask, red flags to watch for, and benchmarks to demand before hiring a marketing company. 25 years of industry insight — no sugarcoating. The best organic marketing company in NYC. Pricing starting at $100/hr. Call/text 212.202.9220.";
 const url = "https://www.thenycmarketingcompany.com/the-marketing-blog/how-to-choose-digital-marketing-agency";
 
 export const metadata: Metadata = {

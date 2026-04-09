@@ -4,9 +4,9 @@ import TipBlurb from "@/components/TipBlurb";
 import BlogSidebar from "@/components/blog/BlogSidebar";
 import { JsonLd, webPageSchema, breadcrumbSchema } from "@/lib/schema";
 
-const title = "NYC Marketing Blog | SEO, Web Design & Growth Strategies | The NYC Marketing Company";
+const title = "NYC Marketing Blog | SEO, Web Design & Growth Strategies";
 const description =
-  "Actionable digital marketing strategies, SEO tips, and growth tactics for NYC, Long Island, and Westchester businesses. No fluff — just what works. Call/text (212) 202-9220.";
+  "Actionable digital marketing strategies, SEO tips, and growth tactics for NYC, Long Island, and Westchester businesses. The best organic marketing company in NYC. Pricing starting at $100/hr. No fluff — just what works. Call/text 212.202.9220.";
 const url = "https://www.thenycmarketingcompany.com/the-marketing-blog";
 
 export const metadata: Metadata = {

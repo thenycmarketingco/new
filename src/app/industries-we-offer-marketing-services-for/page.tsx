@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import { JsonLd, webPageSchema, breadcrumbSchema } from "@/lib/schema";
 import IndustriesListClient from "./IndustriesListClient";
 
-const title = "Industries We Serve | NYC Marketing Company | The NYC Marketing Company";
+const title = "Industries We Serve | NYC Marketing for 100+ Industries";
 const description =
-  "Marketing services for 100+ industries across NYC, Long Island, and the tri-state area. Home services, law firms, restaurants, medical practices, contractors, and more. 25+ years of experience. Call/text (212) 202-9220.";
+  "The best organic marketing company in NYC. Marketing services for 100+ industries across NYC, Long Island, and the tri-state area. Home services, law firms, restaurants, medical practices, and more. Pricing starting at $100/hr. Call/text 212.202.9220.";
 const url = "https://www.thenycmarketingcompany.com/industries-we-offer-marketing-services-for";
 
 export const metadata: Metadata = {

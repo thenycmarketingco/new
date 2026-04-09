@@ -4,9 +4,9 @@ import type { Metadata } from "next";
 import TipBlurb from "@/components/TipBlurb";
 import { JsonLd, webPageSchema, breadcrumbSchema } from "@/lib/schema";
 
-const title = "What's Working in Marketing Right Now | The NYC Marketing Company";
+const title = "What's Working in Marketing Right Now | NYC SEO & Web Design";
 const description =
-  "Real-time notes, updates, and observations from the team at The NYC Marketing Company. What's actually working in SEO, web design, and digital marketing — no fluff, no theory. Call/text (212) 202-9220.";
+  "Real-time notes, updates, and observations on what's actually working in SEO, web design, and digital marketing — no fluff, no theory. The best organic marketing company in NYC. Pricing starting at $100/hr. Call/text 212.202.9220.";
 const url = "https://www.thenycmarketingcompany.com/whats-working-in-marketing";
 
 export const metadata: Metadata = {

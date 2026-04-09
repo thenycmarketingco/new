@@ -5,8 +5,8 @@ import ResultsClient from "./ResultsClient";
 /* ------------------------------------------------------------------ */
 /*  Metadata                                                           */
 /* ------------------------------------------------------------------ */
-const title = "What's Working | Results & Case Studies | The NYC Marketing Company";
-const description = "Real results for real NYC businesses. See how The NYC Marketing Company helped local businesses go from invisible to page 1, generating dozens of leads per month with SEO and web design. Call/text (212) 202-9220.";
+const title = "What's Working | Results & Case Studies";
+const description = "Real results for real NYC businesses. The best organic marketing company in NYC helped local businesses go from invisible to page 1, generating dozens of leads per month. Pricing starting at $100/hr. Call/text 212.202.9220.";
 const url = "https://www.thenycmarketingcompany.com/results";
 
 export const metadata: Metadata = {

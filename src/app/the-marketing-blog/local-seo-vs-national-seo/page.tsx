@@ -6,9 +6,9 @@ import BlogNav from "@/components/blog/BlogNav";
 import ListenButton from "@/components/blog/ListenButton";
 import { JsonLd, articleSchema, breadcrumbSchema } from "@/lib/schema";
 
-const title = "Local SEO vs National SEO: What Your NYC Business Actually Needs | The NYC Marketing Company";
+const title = "Local SEO vs National SEO: What Your NYC Business Actually Needs";
 const description =
-  "Local SEO and national SEO require completely different strategies. Learn which approach drives the most revenue for your NYC business — or if you need both. Call/text (212) 202-9220.";
+  "Local SEO and national SEO require completely different strategies. Learn which approach drives the most revenue for your NYC business — or if you need both. The best organic marketing company in NYC. Pricing starting at $100/hr. Call/text 212.202.9220.";
 const url = "https://www.thenycmarketingcompany.com/the-marketing-blog/local-seo-vs-national-seo";
 
 export const metadata: Metadata = {

@@ -11,7 +11,7 @@ const PHONE = "212.202.9220";
 
 export const metadata = {
   title: "AI Automation for Local Businesses | AI Text Bots, Lead Follow-Up & CRM",
-  description: `AI automation built for local businesses. Custom AI text bots, automated lead follow-up, review requests, appointment booking, and CRM — running 24/7 on real infrastructure. Not a plugin. Built by The NYC Marketing Company. Call ${PHONE}.`,
+  description: `AI automation built for local businesses. Custom AI text bots, automated lead follow-up, review requests, appointment booking, and CRM — running 24/7 on real infrastructure. Not a plugin. The best organic marketing company in NYC. Pricing starting at $100/hr. Call/text ${PHONE}.`,
   alternates: { canonical: "https://www.thenycmarketingcompany.com/artificial-intelligence-marketing-services-offered" },
   keywords: [
     "ai automation local business",
@@ -26,15 +26,15 @@ export const metadata = {
     "the nyc marketing company ai",
   ],
   openGraph: {
-    title: "AI Automation for Local Businesses | The NYC Marketing Company",
-    description: `Custom AI text bots, lead follow-up, review automation, and CRM. Built on real infrastructure. Call ${PHONE}.`,
+    title: "AI Automation for Local Businesses | AI Text Bots & CRM",
+    description: `Custom AI text bots, lead follow-up, review automation, and CRM. Built on real infrastructure. Pricing starting at $100/hr. Call/text ${PHONE}.`,
     url: "https://www.thenycmarketingcompany.com/artificial-intelligence-marketing-services-offered",
     siteName: "The NYC Marketing Company",
     type: "website",
   },
   twitter: {
     card: "summary_large_image" as const,
-    title: "AI Automation for Local Businesses | The NYC Marketing Company",
+    title: "AI Automation for Local Businesses | AI Text Bots & CRM",
     description: `AI text bots, automated lead follow-up, review requests, and CRM. Call ${PHONE}.`,
   },
 };

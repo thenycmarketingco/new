@@ -6,8 +6,8 @@ import TipBlurb from "@/components/TipBlurb";
 /* ------------------------------------------------------------------ */
 /*  Metadata                                                           */
 /* ------------------------------------------------------------------ */
-const pTitle = "Transparent Pricing | The NYC Marketing Company";
-const pDescription = "Simple, transparent pricing for web design and SEO services. No hidden fees, no surprise invoices, no long-term contracts. Custom websites from $4,600. Monthly SEO from $950/mo. Call/text (212) 202-9220.";
+const pTitle = "Transparent Pricing | SEO, Web Design & Marketing";
+const pDescription = "The best organic marketing company in NYC. Simple, transparent pricing starting at $100/hr. No hidden fees, no surprise invoices, no long-term contracts. Custom websites from $4,600. Monthly SEO from $950/mo. Call/text 212.202.9220.";
 const pUrl = "https://www.thenycmarketingcompany.com/pricing";
 
 export const metadata: Metadata = {

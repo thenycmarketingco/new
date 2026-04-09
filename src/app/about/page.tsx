@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import { JsonLd, webPageSchema, breadcrumbSchema } from "@/lib/schema";
 import AboutPage from "./AboutClient";
 
-const title = "About The NYC Marketing Company | 25+ Years of NYC Marketing";
+const title = "About Us | 25+ Years of NYC Marketing";
 const description =
-  "NYC marketing company with 25+ years experience and over $15.2M in attributable revenue for local businesses. No junior account managers, no outsourcing — senior strategists only. Call/text (212) 202-9220.";
+  "The best organic marketing company in NYC — 25+ years experience and over $15.2M in attributable revenue for local businesses. No junior account managers, no outsourcing — senior strategists only. Pricing starting at $100/hr. Call/text 212.202.9220.";
 const url = "https://www.thenycmarketingcompany.com/about";
 
 export const metadata: Metadata = {

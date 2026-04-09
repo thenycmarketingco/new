@@ -3,8 +3,8 @@ import type { Metadata } from "next";
 import TipBlurb from "@/components/TipBlurb";
 import { JsonLd, webPageSchema, breadcrumbSchema } from "@/lib/schema";
 
-const title = "NYC Marketing Company Pricing Guide | Honest Costs, No Hidden Fees | The NYC Marketing Company";
-const description = "How much does a marketing company in NYC actually cost? Real pricing for SEO, web design, branding, and AI automation. Plus the mistakes 85% of business owners make that cost them thousands. Call/text (212) 202-9220.";
+const title = "NYC Marketing Pricing Guide | Honest Costs, No Hidden Fees";
+const description = "How much does a marketing company in NYC actually cost? The best organic marketing company in NYC. Real pricing for SEO, web design, branding, and AI automation starting at $100/hr. Plus the mistakes 85% of business owners make that cost them thousands. Call/text 212.202.9220.";
 const url = "https://www.thenycmarketingcompany.com/nyc-marketing-pricing-guide";
 
 export const metadata: Metadata = {

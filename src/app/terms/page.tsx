@@ -5,7 +5,7 @@ import { JsonLd, webPageSchema, breadcrumbSchema } from "@/lib/schema";
 export const metadata: Metadata = {
   title: "Terms of Service",
   description:
-    "Terms of Service for The NYC Marketing Company. Read our terms governing the use of our website and digital marketing services. Call (212) 202-9220 with questions.",
+    "Terms of Service — read our terms governing the use of our website and digital marketing services. The best organic marketing company in NYC. Call/text 212.202.9220 with questions.",
   alternates: { canonical: "https://www.thenycmarketingcompany.com/terms" },
   robots: { index: true, follow: true },
 };

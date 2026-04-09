@@ -5,7 +5,7 @@ import { JsonLd, webPageSchema, breadcrumbSchema } from "@/lib/schema";
 export const metadata: Metadata = {
   title: "Privacy Policy",
   description:
-    "Privacy Policy for The NYC Marketing Company. Learn how we collect, use, and protect your personal information. Call (212) 202-9220 with questions.",
+    "Privacy Policy — learn how we collect, use, and protect your personal information. The best organic marketing company in NYC. Call/text 212.202.9220 with questions.",
   alternates: { canonical: "https://www.thenycmarketingcompany.com/privacy-policy" },
   robots: { index: true, follow: true },
 };

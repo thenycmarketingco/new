@@ -3,9 +3,9 @@ import type { Metadata } from "next";
 import TipBlurb from "@/components/TipBlurb";
 import { JsonLd, webPageSchema, breadcrumbSchema } from "@/lib/schema";
 
-const title = "NYC Marketing Company Portfolio | Real SEO Results & Case Studies | The NYC Marketing Company";
+const title = "NYC Marketing Portfolio | Real SEO Results & Case Studies";
 const description =
-  "See real SEO results, traffic growth, and revenue numbers from NYC businesses we've grown from zero. Visit their websites, Google them — every result is verifiable. No stock photos, no fake case studies. Call/text (212) 202-9220.";
+  "See real SEO results, traffic growth, and revenue numbers from NYC businesses we've grown from zero. The best organic marketing company in NYC. Every result is verifiable — no stock photos, no fake case studies. Pricing starting at $100/hr. Call/text 212.202.9220.";
 const url = "https://www.thenycmarketingcompany.com/nyc-marketing-company-portfolio";
 
 export const metadata: Metadata = {

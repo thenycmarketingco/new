@@ -6,9 +6,9 @@ import BlogNav from "@/components/blog/BlogNav";
 import ListenButton from "@/components/blog/ListenButton";
 import { JsonLd, articleSchema, breadcrumbSchema } from "@/lib/schema";
 
-const title = "10 SEO Mistakes NYC Businesses Make in 2026 | The NYC Marketing Company";
+const title = "10 SEO Mistakes NYC Businesses Make in 2026";
 const description =
-  "The most common SEO mistakes we see NYC businesses making — and exactly how to fix them. From local citations to Core Web Vitals, stop leaving money on the table. Call/text (212) 202-9220.";
+  "The most common SEO mistakes we see NYC businesses making — and exactly how to fix them. From local citations to Core Web Vitals, stop leaving money on the table. The best organic marketing company in NYC. Pricing starting at $100/hr. Call/text 212.202.9220.";
 const url = "https://www.thenycmarketingcompany.com/the-marketing-blog/10-seo-mistakes-nyc-businesses-2026";
 
 export const metadata: Metadata = {

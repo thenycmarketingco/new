@@ -4,7 +4,7 @@ import ROICalculator from "./ROICalculatorClient";
 
 const title = "Marketing ROI Calculator | See Your Potential Revenue";
 const description =
-  "Calculate your marketing ROI with our free tool. See how SEO and web design can generate leads and revenue for your NYC business. SEO from $950/mo. Call/text (212) 202-9220.";
+  "Calculate your marketing ROI with our free tool. See how SEO and web design can generate leads and revenue for your NYC business. The best organic marketing company in NYC. Pricing starting at $100/hr. Call/text 212.202.9220.";
 const url = "https://www.thenycmarketingcompany.com/annual-marketing-spend-roi-calculator";
 
 export const metadata: Metadata = {

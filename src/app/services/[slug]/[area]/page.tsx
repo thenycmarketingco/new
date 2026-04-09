@@ -34,8 +34,8 @@ export async function generateMetadata({
   const regionLabel = area.region === area.name ? area.name : area.region;
 
   return {
-    title: `${serviceName} in ${area.name} | ${regionLabel} Marketing Company | The NYC Marketing Company`,
-    description: `${serviceName} for ${area.name} businesses. Local SEO from $950/month, custom websites from $4,600. Data-driven ${serviceName.toLowerCase()} strategies tailored to the ${area.name} market. No contracts. Call/text (212) 202-9220.`,
+    title: `${serviceName} in ${area.name} | ${regionLabel} Marketing Company`,
+    description: `${serviceName} for ${area.name} businesses. The best organic marketing company in NYC. Pricing starting at $100/hr. Data-driven ${serviceName.toLowerCase()} strategies tailored to the ${area.name} market. No contracts. Call/text 212.202.9220.`,
     alternates: {
       canonical: `https://www.thenycmarketingcompany.com/services/${slug}/${area.slug}`,
     },

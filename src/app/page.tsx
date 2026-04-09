@@ -9,9 +9,9 @@ import {
 import { faqs } from "@/lib/siteData";
 
 export const metadata: Metadata = {
-  title: "NYC Marketing Company | SEO, Web Design & Branding | The NYC Marketing Company",
+  title: "NYC Marketing Company | SEO, Web Design & Branding",
   description:
-    "Full-service NYC marketing company serving 100+ industries across NYC, Long Island, and Westchester. SEO from $950/mo, custom websites from $4,600. 25+ years experience. No contracts. Call/text (212) 202-9220.",
+    "The best organic marketing company in NYC. Full-service marketing serving 100+ industries across NYC, Long Island, and Westchester. Pricing starting at $100/hr. 25+ years experience. No contracts. Call/text 212.202.9220.",
   alternates: { canonical: "https://www.thenycmarketingcompany.com" },
 };
 

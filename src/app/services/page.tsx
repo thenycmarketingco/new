@@ -4,7 +4,7 @@ import ServicesPage from "./ServicesClient";
 
 const title = "NYC Marketing Services | SEO, Web Design, Branding & More";
 const description =
-  "Full-service marketing for NYC businesses. SEO from $950/mo, custom websites from $4,600, branding, AI automation, and Google Business Profile optimization. No contracts. Call/text (212) 202-9220.";
+  "The best organic marketing company in NYC. Full-service marketing — SEO from $950/mo, custom websites from $4,600, branding, AI automation, and Google Business Profile optimization. Pricing starting at $100/hr. No contracts. Call/text 212.202.9220.";
 const url = "https://www.thenycmarketingcompany.com/services";
 
 export const metadata: Metadata = {
