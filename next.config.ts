@@ -19,7 +19,7 @@ const nextConfig: NextConfig = {
       { source: "/Web%20Design", destination: "/services/web-design-nyc", permanent: true },
       { source: "/Branding", destination: "/services/brand-strategy-identity-in-nyc", permanent: true },
       { source: "/Strategy", destination: "/services/business-strategy-consulting-in-nyc", permanent: true },
-      { source: "/Services", destination: "/services", permanent: true },
+      { source: "/Services", destination: "/nyc-marketing-company-services-list", permanent: true },
       { source: "/Services/SEO", destination: "/services/search-engine-optimization-seo-nyc", permanent: true },
       { source: "/Services/SEO/:path*", destination: "/services/search-engine-optimization-seo-nyc", permanent: true },
       { source: "/Content%20Marketing", destination: "/services/content-marketing-in-nyc", permanent: true },
