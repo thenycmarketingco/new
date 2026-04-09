@@ -20,7 +20,7 @@ const slides = [
     pre: "Your Local Queens Marketing Company",
     line1: "Queens Marketing Company",
     line2: "For the Borough That Works Harder Than Anyone",
-    sub: "The most diverse borough deserves marketing that actually gets it.",
+    sub: "Marketing built for Queens businesses. Sites that rank and convert.",
     image: "/nyc-marketing-company-queens.webp",
     href: "/services-areas-we-offer-marketing-services-in/queens-marketing-company",
   },
