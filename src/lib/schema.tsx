@@ -8,9 +8,9 @@ export const organizationSchema = {
   url: "https://www.thenycmarketingcompany.com",
   logo: {
     "@type": "ImageObject",
-    url: "https://www.thenycmarketingcompany.com/icon.svg",
-    width: 32,
-    height: 32,
+    url: "https://www.thenycmarketingcompany.com/apple-icon.svg",
+    width: 180,
+    height: 180,
   },
   image: "https://www.thenycmarketingcompany.com/opengraph-image",
   description:
@@ -25,8 +25,8 @@ export const organizationSchema = {
   },
   geo: {
     "@type": "GeoCoordinates",
-    latitude: 40.7128,
-    longitude: -74.006,
+    latitude: 40.758,
+    longitude: -73.9855,
   },
   contactPoint: {
     "@type": "ContactPoint",
@@ -201,7 +201,7 @@ export function webPageSchema(
     description,
     isPartOf: { "@id": "https://www.thenycmarketingcompany.com/#website" },
     about: { "@id": "https://www.thenycmarketingcompany.com/#organization" },
-    datePublished: "2024-01-01",
+    datePublished: "2026-01-01",
     dateModified: new Date().toISOString().split("T")[0],
     inLanguage: "en-US",
   };

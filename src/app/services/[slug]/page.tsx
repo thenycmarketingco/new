@@ -70,7 +70,7 @@ function getServiceFaqs(slug: string) {
       { question: "Will my website be optimized for mobile devices?", answer: "Every website we build is mobile-first responsive. With over 60% of web traffic coming from mobile devices, this approach ensures your site delivers an excellent experience on every screen size." },
       { question: "Do I own my website?", answer: "Yes. You own 100% of the code, design, content, and domain. No proprietary platforms, no lock-in. If you ever leave, you take everything with you." },
     ],
-    "branding-identity-services-nyc": [
+    "brand-strategy-identity-in-nyc": [
       { question: "What is included in a branding package?", answer: "Brand strategy and positioning, logo design with multiple concepts and revisions, complete visual identity system, brand guidelines document, and brand voice and messaging framework." },
       { question: "How long does the branding process take?", answer: "A complete brand identity project typically takes 4-6 weeks including strategy, concept development, revisions, and final deliverables." },
       { question: "Do you offer rebranding services?", answer: "Yes. We help businesses that have outgrown their current brand. Our rebranding process starts with a comprehensive brand audit then builds a refreshed identity aligned with your goals." },

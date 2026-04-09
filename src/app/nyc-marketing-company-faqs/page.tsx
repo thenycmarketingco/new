@@ -7,6 +7,18 @@ export const metadata: Metadata = {
   description:
     "100 answers to the most common questions about hiring a marketing company in NYC. SEO pricing, web design costs, local SEO timelines, Google Business Profile, AI automation, and more. Call/text (212) 202-9220.",
   alternates: { canonical: "https://www.thenycmarketingcompany.com/nyc-marketing-company-faqs" },
+  openGraph: {
+    title: "100 Marketing FAQs for NYC Businesses | The NYC Marketing Company",
+    description: "100 answers to the most common questions about hiring a marketing company in NYC.",
+    url: "https://www.thenycmarketingcompany.com/nyc-marketing-company-faqs",
+    siteName: "The NYC Marketing Company",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image" as const,
+    title: "100 Marketing FAQs for NYC Businesses | The NYC Marketing Company",
+    description: "100 answers to the most common questions about hiring a marketing company in NYC.",
+  },
   keywords: [
     "NYC marketing company FAQ",
     "how much does SEO cost in NYC",

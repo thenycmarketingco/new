@@ -97,7 +97,7 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://www.thenycmarketingcompany.com",
   },
-  // verification: { google: "ADD_REAL_CODE_FROM_SEARCH_CONSOLE" },
+  verification: { google: "ASP01LqhFjYKzlnrerNtCOxLMxBRDqEHLccndDy8-QI" },
 };
 
 export default function RootLayout({

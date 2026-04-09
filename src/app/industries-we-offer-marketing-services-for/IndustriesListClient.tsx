@@ -483,7 +483,7 @@ export default function IndustriesListClient() {
                   { text: "Programmatic SEO at Scale", href: "/services/programmatic-seo-services-in-nyc" },
                   { text: "Custom CRM Development", href: "/services/custom-crm-development-in-nyc" },
                   { text: "Micro Site EMD Strategy", href: "/services/micro-site-emd-strategy-in-nyc" },
-                  { text: "Branding & Identity", href: "/services/branding-identity-services-nyc" },
+                  { text: "Branding & Identity", href: "/services/brand-strategy-identity-in-nyc" },
                   { text: "Outsourced Marketing Manager", href: "/services/marketing-manager-consulting-in-nyc" },
                 ].map((item) => (
                   <li key={item.text} className="flex gap-2.5">
