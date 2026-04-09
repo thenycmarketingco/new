@@ -189,7 +189,7 @@ export default function Navbar() {
         {/* Mobile Hamburger */}
         <button
           onClick={() => setMobileOpen(!mobileOpen)}
-          className="relative z-60 flex h-10 w-10 flex-col items-center justify-center gap-1.5 lg:hidden"
+          className="relative z-60 flex h-10 w-10 flex-col items-center justify-center gap-1.5 justify-self-end lg:hidden"
           aria-label="Toggle menu"
         >
           <motion.span

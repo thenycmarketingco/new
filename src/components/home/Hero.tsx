@@ -100,9 +100,9 @@ export default function Hero() {
       <div className="absolute inset-0 bg-slate-900/80 z-[1]" />
 
       {/* Content */}
-      <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center pt-36 pb-20">
+      <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center pt-4 sm:pt-36 pb-16 sm:pb-20">
         {/* Pre-headline — solid teal bar */}
-        <div className="relative h-10 flex items-center justify-center mb-4">
+        <div className="relative h-10 flex items-center justify-center mb-2 sm:mb-4">
           <AnimatePresence>
             <motion.div
               key={`pre-${current}`}
@@ -120,7 +120,7 @@ export default function Hero() {
         </div>
 
         {/* Main headline — crossfade */}
-        <div className="relative h-[240px] sm:h-[260px] md:h-[300px] lg:h-[350px] flex items-center justify-center mb-4">
+        <div className="relative h-[160px] sm:h-[200px] md:h-[300px] lg:h-[350px] flex items-center justify-center mb-0 sm:mb-4">
           <AnimatePresence>
             <motion.h1
               key={`h1-${current}`}
@@ -131,13 +131,13 @@ export default function Hero() {
               className="absolute w-full font-extrabold text-white leading-[1.1] font-heading"
             >
               <span className="block text-4xl sm:text-5xl md:text-6xl lg:text-7xl">{slide.line1}</span>
-              <span className="block text-xl sm:text-2xl md:text-3xl lg:text-4xl text-teal-400 mt-4">{slide.line2}</span>
+              <span className="block text-xl sm:text-2xl md:text-3xl lg:text-4xl text-teal-400 mt-2 sm:mt-4">{slide.line2}</span>
             </motion.h1>
           </AnimatePresence>
         </div>
 
         {/* Sub copy — crossfade */}
-        <div className="relative h-[50px] sm:h-[45px] flex items-start justify-center mb-10">
+        <div className="relative h-[50px] sm:h-[45px] flex items-start justify-center mb-4 sm:mb-10">
           <AnimatePresence>
             <motion.p
               key={`sub-${current}`}
@@ -157,7 +157,7 @@ export default function Hero() {
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.45 }}
-          className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-6"
+          className="flex flex-col sm:flex-row items-center justify-center gap-3 sm:gap-4 mb-4 sm:mb-6"
         >
           <Link
             href="/contact"
@@ -178,7 +178,7 @@ export default function Hero() {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 0.6, delay: 0.6 }}
-          className="text-slate-200 text-sm sm:text-base mb-10 max-w-2xl mx-auto leading-relaxed"
+          className="text-slate-200 text-sm sm:text-base mb-6 sm:mb-10 max-w-2xl mx-auto leading-relaxed"
         >
           <strong className="text-white">10,000+ businesses</strong> over <strong className="text-white">25 years</strong> &mdash;{" "}
           <Link href="/nyc-marketing-company-services-list" className="text-teal-400 hover:text-teal-300 transition-colors underline underline-offset-2 decoration-teal-400/50">law firms</Link>,{" "}

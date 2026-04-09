@@ -17,6 +17,7 @@ export const metadata: Metadata = {
 
 // Home page sections
 import Hero from "@/components/home/Hero";
+import RealTalk from "@/components/home/RealTalk";
 import Welcome from "@/components/home/Welcome";
 import TrustBar from "@/components/home/TrustBar";
 import ResultsTicker from "@/components/home/ResultsTicker";
@@ -73,6 +74,9 @@ export default function Home() {
 
       {/* 1. Hero */}
       <Hero />
+
+      {/* 1a. Real Talk — first thing after hero */}
+      <RealTalk />
 
       {/* 1b. Quick marketing tips */}
       <QuickTips />
